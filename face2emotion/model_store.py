@@ -3,8 +3,7 @@ from pathlib import Path
 
 # 两个备用下载源，第一个挂了自动试第二个
 MODEL_URLS = [
-    "https://github.com/derronqi/yolov8-face/releases/download/v1.0/yolov8n-face.pt",
-    "https://github.com/akanametov/yolo-face/releases/download/v0.0.0/yolov8n-face.pt",
+"https://github.com/YapaLab/yolo-face/releases/download/1.0.0/yolov8n-face.pt"
 ]
 
 _DOWNLOAD_TIMEOUT = 60  # 秒，超时就放弃这个源试下一个，别让程序卡死
