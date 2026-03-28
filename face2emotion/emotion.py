@@ -8,7 +8,7 @@ log=logging.getLogger("face2emotion")
 all_labels=["Anger", "Contempt", "Disgust", "Fear","Happiness", "Neutral", "Sadness", "Surprise"]
 lowers={"Anger": "angry", "Contempt": "contempt", "Disgust": "disgust","Fear": "fear",   "Happiness": "happy",   "Neutral": "neutral","Sadness": "sad", "Surprise": "surprise"}
 
-ci=all_labels.index("Contement")
+ci=all_labels.index("Contempt")
 ni=all_labels.index("Neutral")
 #ema新帧权重
 w_new=0.6
